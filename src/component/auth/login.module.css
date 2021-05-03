@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+.container{
+    height: 100vh;
+    background: url("../../images/sign-in.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+.formHeader{
+    font-family: 'Chewy', cursive;
+    font-size: 52px;
+
+    background: #7f00ff;
+    background: -webkit-linear-gradient(
+        to right,
+        #e100ff,
+        #7f00f7
+    );
+    background: linear-gradient(
+        to right,
+        #bf03d7,
+        #7f00ff
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.formHeader span {
+    
+    -webkit-text-fill-color: #ffffff  ;
+
+}
